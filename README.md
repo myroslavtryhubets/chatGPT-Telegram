@@ -1,5 +1,4 @@
 # Telegram Bot Using OpenAI API for Responses
-===========================================
 
 This bot uses Cloudflare Workers, Telegram Bot API, and OpenAI API to process user messages and generate responses using artificial intelligence.
 
