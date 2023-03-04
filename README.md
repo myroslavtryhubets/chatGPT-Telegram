@@ -17,4 +17,4 @@ Functionality Description
 
 This bot works by using HTTP requests that are sent from Telegram users to Cloudflare Workers. The Workers code checks if the message is sent from an authorized chat ID and if so, it sends the message to OpenAI API to generate a response. The bot then sends the response back to the user using the Telegram Bot API.
 
-Make sure to replace `YOUR_TELEGRAM_BOT_TOKEN` and `YOUR_OPENAI_API_KEY` with your actual tokens in the `index.js` file before starting the bot.
+Make sure to replace `YOUR_TELEGRAM_BOT_TOKEN`, `YOUR_TELEGRAM_CHATID` and `YOUR_OPENAI_API_KEY` with your actual tokens in the `index.js` file before starting the bot.
