@@ -1,5 +1,5 @@
-const token = 'TELEGRAM_BOT_TOKEN'
-const openaiApiKey = 'OPENAI_API_KEY'
+const token = 'YOUR_TELEGRAM_BOT_TOKEN'
+const openaiApiKey = 'YOUR_OPENAI_API_KEY'
 const allowedChatIds = [111111, 222222]
 
 
