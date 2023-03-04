@@ -1,6 +1,6 @@
 const token = 'YOUR_TELEGRAM_BOT_TOKEN'
 const openaiApiKey = 'YOUR_OPENAI_API_KEY'
-const allowedChatIds = [111111, 222222]
+const allowedChatIds = [YOUR_TELEGRAM_CHATID]
 
 
 addEventListener('fetch', event => {
