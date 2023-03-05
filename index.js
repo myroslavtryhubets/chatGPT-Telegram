@@ -17,7 +17,7 @@ async function handleRequest(request) {
     const text = body.message.text
     console.log(text)
     if (!allowedChatIds.includes(chatId)) {
-      return new Response('Unauthorized', { status: 401 })
+      return new Response('OK')
     }
     const headers = {
       'Content-Type': 'application/json',
@@ -48,7 +48,7 @@ async function handleRequest(request) {
     return new Response('OK')
   }
 
-  return new Response('Not Found', { status: 404 })
+  return new Response('OK')
 }
 
 async function sendTelegramMessage(chatId, text) {
